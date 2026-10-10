@@ -1,0 +1,32 @@
+{
+  "name": "taste-concierge",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-08-22",
+  "compatibility_flags": ["nodejs_compat"],
+  "workers_dev": true,
+  "ai": {
+    "binding": "AI"
+  },
+  // D1, not KV: KV caches a missed read for up to a minute, which would drop the taste saved by the first request.
+  "d1_databases": [
+    {
+      "binding": "TASTE_DB",
+      "database_name": "taste-concierge",
+      "database_id": "10a70011-b121-40aa-9051-4eacb8da4e05",
+      "migrations_dir": "migrations"
+    }
+  ],
+  "observability": { "enabled": true },
+  // Secrets, set with `wrangler secret put`: QLOO_API_KEY, TAVILY_API_KEY, NEBIUS_API_KEY.
+  // Without NEBIUS_API_KEY the Worker uses WORKERS_AI_MODEL and the page says so.
+  "vars": {
+    "QLOO_BASE_URL": "https://hackathon.api.qloo.com",
+    "NEBIUS_ROUTER_MODEL": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+    "NEBIUS_ROUTER_BASE_URL": "https://api.tokenfactory.nebius.com/v1",
+    "NEBIUS_WRITER_MODEL": "nvidia/Nemotron-3-Ultra-550b-a55b",
+    "NEBIUS_WRITER_BASE_URL": "https://api.tokenfactory.us-central1.nebius.com/v1",
+    "WORKERS_AI_MODEL": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "TAVILY_BASE_URL": "https://api.tavily.com",
+    "OPENKRILL_TRAVEL_URL": "https://travel.openkrill.app/mcp"
+  }
+}

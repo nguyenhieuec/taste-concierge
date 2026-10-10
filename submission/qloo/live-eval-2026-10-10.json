@@ -1,0 +1,661 @@
+[
+  {
+    "at": "2026-10-10T10:44:58.333Z",
+    "message": "I love Khruangbin and The Grand Budapest Hotel. Where should I eat in Lisbon?",
+    "venue": "restaurant",
+    "city": "Lisbon",
+    "lessObvious": false,
+    "picks": 6,
+    "wellKnown": 0,
+    "fit": [
+      0.82,
+      0.75
+    ],
+    "pop": [
+      0.62,
+      0.95
+    ],
+    "scored": "5/5",
+    "heldWins": 2,
+    "folds": [
+      "Khruangbin 0.74/0.70",
+      "The Grand Budapest Hotel 0.84/0.76"
+    ],
+    "qlooPlaces": [
+      {
+        "name": "Mar ao Carmo",
+        "fit": 0.83,
+        "popularity": 0.9
+      },
+      {
+        "name": "Barbica",
+        "fit": 0.83,
+        "popularity": 0.43
+      },
+      {
+        "name": "Solar dos Bicos",
+        "fit": 0.83,
+        "popularity": 0.94
+      },
+      {
+        "name": "BONANÇA - Associação Naval de Lisboa",
+        "fit": 0.82,
+        "popularity": 0.27
+      },
+      {
+        "name": "Solar do Duque",
+        "fit": 0.82,
+        "popularity": 0.88
+      },
+      {
+        "name": "Os Amigos Da Severa",
+        "fit": 0.82,
+        "popularity": 0.27
+      }
+    ],
+    "modelPlaces": [
+      {
+        "name": "Cantinho do Avillez",
+        "found": true,
+        "fit": 0.76,
+        "popularity": 0.98
+      },
+      {
+        "name": "Eleven",
+        "found": true,
+        "fit": 0.78,
+        "popularity": 0.98
+      },
+      {
+        "name": "Belcanto",
+        "found": true,
+        "fit": 0.71,
+        "popularity": 0.97
+      },
+      {
+        "name": "Bistro 100 Maneiras",
+        "found": true,
+        "fit": 0.76,
+        "popularity": 0.97
+      },
+      {
+        "name": "Solar do Castelo",
+        "found": true,
+        "fit": 0.71,
+        "popularity": 0.82
+      }
+    ],
+    "steps": [
+      "Read the request: Khruangbin + The Grand Budapest Hotel -> restaurant in Lisbon",
+      "Find your loves in the taste graph: Khruangbin = Khruangbin; The Grand Budapest Hotel = The Grand Budapest Hotel",
+      "Read the taste as ambience and decor: Whimsical, Artistic, Rustic, Historical, No Frills, Hip, Bohemian, Industrial",
+      "Check official travel advice: Level 1: Exercise Normal Precautions",
+      "Rank places by taste affinity: 9 of 12 are mainly a restaurant in Lisbon; kept 6",
+      "Look for what is on now: 1 fresh results that name the city and a love",
+      "Write the answer from the picks: Names 6 of 6 Qloo picks"
+    ]
+  },
+  {
+    "at": "2026-10-10T10:45:11.808Z",
+    "message": "Same taste, but bars in Lisbon that are not touristy.",
+    "venue": "bar",
+    "city": "Lisbon",
+    "lessObvious": true,
+    "picks": 5,
+    "wellKnown": 0,
+    "fit": [
+      0.82,
+      0.74
+    ],
+    "pop": [
+      0.36,
+      0.97
+    ],
+    "scored": "5/5",
+    "heldWins": 2,
+    "folds": [
+      "Khruangbin 0.75/0.66",
+      "The Grand Budapest Hotel 0.84/0.79"
+    ],
+    "qlooPlaces": [
+      {
+        "name": "Bar Terraço de Santa Luzia",
+        "fit": 0.85,
+        "popularity": 0.39
+      },
+      {
+        "name": "Bacchanal",
+        "fit": 0.82,
+        "popularity": 0.14
+      },
+      {
+        "name": "MALT",
+        "fit": 0.82,
+        "popularity": 0.19
+      },
+      {
+        "name": "Spot Bairro Alto",
+        "fit": 0.81,
+        "popularity": 0.38
+      },
+      {
+        "name": "OITOnove",
+        "fit": 0.81,
+        "popularity": 0.7
+      }
+    ],
+    "modelPlaces": [
+      {
+        "name": "Parker's",
+        "found": true,
+        "fit": 0.63,
+        "popularity": 0.98
+      },
+      {
+        "name": "Cinco Lounge",
+        "found": true,
+        "fit": 0.8,
+        "popularity": 0.94
+      },
+      {
+        "name": "Bar des Amigos",
+        "found": true,
+        "fit": 0.67,
+        "popularity": 0.99
+      },
+      {
+        "name": "O Bom O Mau e O Vilão",
+        "found": true,
+        "fit": 0.79,
+        "popularity": 0.96
+      },
+      {
+        "name": "Casa Independente",
+        "found": true,
+        "fit": 0.8,
+        "popularity": 0.99
+      }
+    ],
+    "steps": [
+      "Read the request: Khruangbin + The Grand Budapest Hotel -> bar in Lisbon",
+      "Find your loves in the taste graph: Khruangbin = Khruangbin; The Grand Budapest Hotel = The Grand Budapest Hotel",
+      "Check official travel advice: Level 1: Exercise Normal Precautions",
+      "Rank places by taste affinity: 5 of 12 are mainly a bar in Lisbon, popularity under 0.7; kept 5",
+      "Read the taste as ambience and decor: Whimsical, Artistic, Rustic, Historical, No Frills, Hip, Bohemian, Industrial",
+      "Look for what is on now: 1 fresh results that name the city and a love",
+      "Write the answer from the picks: Names 5 of 5 Qloo picks"
+    ]
+  },
+  {
+    "at": "2026-10-10T10:45:29.223Z",
+    "message": "Big fan of Studio Ghibli films and Nick Drake. Find me a cafe in Tokyo.",
+    "venue": "cafe",
+    "city": "Tokyo",
+    "lessObvious": false,
+    "picks": 6,
+    "wellKnown": 0,
+    "fit": [
+      0.87,
+      0.79
+    ],
+    "pop": [
+      0.49,
+      0.85
+    ],
+    "scored": "3/5",
+    "heldWins": 2,
+    "folds": [
+      "Studio Ghibli 0.93/0.88",
+      "Nick Drake 0.63/0.58"
+    ],
+    "qlooPlaces": [
+      {
+        "name": "NEZUCAFE",
+        "fit": 0.88,
+        "popularity": 0.52
+      },
+      {
+        "name": "A piece of cake",
+        "fit": 0.88,
+        "popularity": 0.45
+      },
+      {
+        "name": "Why Juice？",
+        "fit": 0.88,
+        "popularity": 0.91
+      },
+      {
+        "name": "Cafe & Gallery Patina",
+        "fit": 0.87,
+        "popularity": 0.22
+      },
+      {
+        "name": "点滴堂",
+        "fit": 0.87,
+        "popularity": 0.28
+      },
+      {
+        "name": "Earth+cafe&bar",
+        "fit": 0.87,
+        "popularity": 0.53
+      }
+    ],
+    "modelPlaces": [
+      {
+        "name": "Kawaii Monster Cafe",
+        "found": false,
+        "fit": null,
+        "popularity": null
+      },
+      {
+        "name": "Verve Coffee Roasters Tokyo",
+        "found": true,
+        "fit": 0.75,
+        "popularity": 0.56
+      },
+      {
+        "name": "Harajuku Cream Puff Cafe",
+        "found": false,
+        "fit": null,
+        "popularity": null
+      },
+      {
+        "name": "Little Darling Coffee Roasters",
+        "found": true,
+        "fit": 0.82,
+        "popularity": 0.99
+      },
+      {
+        "name": "Streamer Coffee Company",
+        "found": true,
+        "fit": 0.81,
+        "popularity": 1
+      }
+    ],
+    "steps": [
+      "Read the request: Studio Ghibli + Nick Drake -> cafe in Tokyo",
+      "Find your loves in the taste graph: Studio Ghibli = Studio Ghibli; Nick Drake = Nick Drake",
+      "Check official travel advice: Level 1: Exercise Normal Precautions",
+      "Look for what is on now: 2 fresh results that name the city and a love",
+      "Rank places by taste affinity: 8 of 12 are mainly a cafe in Tokyo; kept 6",
+      "Read the taste as ambience and decor: none; none for all loves together, so each love was read alone",
+      "Write the answer from the picks: Names 6 of 6 Qloo picks"
+    ]
+  },
+  {
+    "at": "2026-10-10T10:45:44.414Z",
+    "message": "I love Amélie and Patti Smith. Bookstores in Paris that are not touristy?",
+    "venue": "bookstore",
+    "city": "Paris",
+    "lessObvious": true,
+    "picks": 4,
+    "wellKnown": 0,
+    "fit": [
+      0.85,
+      0.86
+    ],
+    "pop": [
+      0.43,
+      0.92
+    ],
+    "scored": "3/5",
+    "heldWins": 0,
+    "folds": [
+      "Amélie 0.87/0.88",
+      "Patti Smith 0.80/0.81"
+    ],
+    "qlooPlaces": [
+      {
+        "name": "La Régulière",
+        "fit": 0.9,
+        "popularity": 0.65
+      },
+      {
+        "name": "Bokbar",
+        "fit": 0.88,
+        "popularity": 0.12
+      },
+      {
+        "name": "EL INTI - La Boutique péruvienne",
+        "fit": 0.82,
+        "popularity": 0.29
+      },
+      {
+        "name": "Decitre",
+        "fit": 0.77,
+        "popularity": 0.67
+      }
+    ],
+    "modelPlaces": [
+      {
+        "name": "Librairie des Abbesses",
+        "found": true,
+        "fit": null,
+        "popularity": null
+      },
+      {
+        "name": "Librairie L'Écume des Pages",
+        "found": true,
+        "fit": 0.89,
+        "popularity": 0.86
+      },
+      {
+        "name": "Librairie Michèle Ignazi",
+        "found": true,
+        "fit": null,
+        "popularity": null
+      },
+      {
+        "name": "Le Monte en l'Air",
+        "found": true,
+        "fit": 0.89,
+        "popularity": 0.91
+      },
+      {
+        "name": "Librairie la Belle Épine",
+        "found": true,
+        "fit": 0.8,
+        "popularity": 1
+      }
+    ],
+    "steps": [
+      "Read the request: Amélie + Patti Smith -> bookstore in Paris",
+      "Find your loves in the taste graph: Amélie = Amélie; Patti Smith = Patti Smith",
+      "Check official travel advice: Level 2: Exercise Increased Caution",
+      "Rank places by taste affinity: 4 of 10 are mainly a bookstore in Paris, popularity under 0.7; kept 4",
+      "Read the taste as ambience and decor: Artistic, Vintage, Authentic, Intimate, Cozy, Inviting, Bustling, Chill",
+      "Look for what is on now: 0 fresh results that name the city and a love",
+      "Write the answer from the picks: Names 4 of 4 Qloo picks"
+    ]
+  },
+  {
+    "at": "2026-10-10T10:46:00.527Z",
+    "message": "I love Amélie and Patti Smith. Museums in Paris that are not touristy?",
+    "venue": "museum",
+    "city": "Paris",
+    "lessObvious": true,
+    "picks": 6,
+    "wellKnown": 4,
+    "fit": [
+      0.88,
+      0.9
+    ],
+    "pop": [
+      0.86,
+      0.97
+    ],
+    "scored": "4/5",
+    "heldWins": 0,
+    "folds": [
+      "Amélie 0.86/0.92",
+      "Patti Smith 0.79/0.85"
+    ],
+    "qlooPlaces": [
+      {
+        "name": "Le M. Musée du Vin",
+        "fit": 0.83,
+        "popularity": 0.62
+      },
+      {
+        "name": "Curie Museum",
+        "fit": 0.83,
+        "popularity": 0.58
+      },
+      {
+        "name": "Le Musée en Herbe",
+        "fit": 0.9,
+        "popularity": 0.98
+      },
+      {
+        "name": "Pavillon de l'Arsenal",
+        "fit": 0.92,
+        "popularity": 0.99
+      },
+      {
+        "name": "Musée de Cluny",
+        "fit": 0.91,
+        "popularity": 0.99
+      },
+      {
+        "name": "Musée Marmottan Monet",
+        "fit": 0.91,
+        "popularity": 1
+      }
+    ],
+    "modelPlaces": [
+      {
+        "name": "Musée de la Vie Romantique",
+        "found": false,
+        "fit": null,
+        "popularity": null
+      },
+      {
+        "name": "Musée de Montmartre",
+        "found": true,
+        "fit": 0.91,
+        "popularity": 1
+      },
+      {
+        "name": "Musée des Arts Forains",
+        "found": true,
+        "fit": 0.9,
+        "popularity": 1
+      },
+      {
+        "name": "Musée Carnavalet",
+        "found": true,
+        "fit": 0.9,
+        "popularity": 1
+      },
+      {
+        "name": "Musée Bourdelle",
+        "found": true,
+        "fit": 0.88,
+        "popularity": 0.89
+      }
+    ],
+    "steps": [
+      "Read the request: Amélie + Patti Smith -> museum in Paris",
+      "Find your loves in the taste graph: Amélie = Amélie; Patti Smith = Patti Smith",
+      "Rank places by taste affinity: 2 of 3 are mainly a museum in Paris, popularity under 0.7; kept 3",
+      "Read the taste as ambience and decor: Artistic, Vintage, Authentic, Intimate, Cozy, Inviting, Bustling, Chill",
+      "Look for what is on now: 0 fresh results that name the city and a love",
+      "Too few fit under the cap, rank again without it: 22 of 49 are mainly a museum without the cap; kept the 2 lesser-known first, then well-known ones; the answer says so",
+      "Check official travel advice: Level 2: Exercise Increased Caution",
+      "Write the answer from the picks: Names 6 of 6 Qloo picks"
+    ]
+  },
+  {
+    "at": "2026-10-10T10:46:20.751Z",
+    "message": "I like Anthony Bourdain and LCD Soundsystem. Bars in Mexico City?",
+    "venue": "bar",
+    "city": "Mexico City",
+    "lessObvious": false,
+    "picks": 6,
+    "wellKnown": 0,
+    "fit": [
+      0.86,
+      0.82
+    ],
+    "pop": [
+      0.67,
+      0.95
+    ],
+    "scored": "3/5",
+    "heldWins": 2,
+    "folds": [
+      "Anthony Bourdain 0.85/0.83",
+      "LCD Soundsystem 0.83/0.80"
+    ],
+    "qlooPlaces": [
+      {
+        "name": "Fifty Mils",
+        "fit": 0.88,
+        "popularity": 0.96
+      },
+      {
+        "name": "Le Tachinomi Desu",
+        "fit": 0.87,
+        "popularity": 0.66
+      },
+      {
+        "name": "Tokyo Music Bar",
+        "fit": 0.86,
+        "popularity": 0.53
+      },
+      {
+        "name": "Bar Felix",
+        "fit": 0.86,
+        "popularity": 0.75
+      },
+      {
+        "name": "Carlotta Reforma",
+        "fit": 0.85,
+        "popularity": 0.16
+      },
+      {
+        "name": "La Clandestina",
+        "fit": 0.85,
+        "popularity": 0.94
+      }
+    ],
+    "modelPlaces": [
+      {
+        "name": "La Opera Bar",
+        "found": true,
+        "fit": 0.77,
+        "popularity": 0.92
+      },
+      {
+        "name": "Bar El Farolito",
+        "found": true,
+        "fit": null,
+        "popularity": 0.21
+      },
+      {
+        "name": "Parker & Lennox",
+        "found": false,
+        "fit": null,
+        "popularity": null
+      },
+      {
+        "name": "La Clandestina",
+        "found": true,
+        "fit": 0.85,
+        "popularity": 0.94
+      },
+      {
+        "name": "Xamán",
+        "found": true,
+        "fit": 0.84,
+        "popularity": 0.98
+      }
+    ],
+    "steps": [
+      "Read the request: Anthony Bourdain + LCD Soundsystem -> bar in Mexico City",
+      "Find your loves in the taste graph: Anthony Bourdain = Anthony Bourdain; LCD Soundsystem = LCD Soundsystem",
+      "Check official travel advice: Level 2: Exercise Increased Caution",
+      "Rank places by taste affinity: 10 of 12 are mainly a bar in Mexico City; kept 6",
+      "Read the taste as ambience and decor: Cozy, Casual, Intimate, Rustic, Inviting, Industrial, Authentic, Hip",
+      "Look for what is on now: 0 fresh results that name the city and a love",
+      "Write the answer from the picks: Names 6 of 6 Qloo picks"
+    ]
+  },
+  {
+    "at": "2026-10-10T10:46:37.739Z",
+    "message": "Wong Kar-wai films and Radiohead. Bars in Berlin?",
+    "venue": "bar",
+    "city": "Berlin",
+    "lessObvious": false,
+    "picks": 6,
+    "wellKnown": 0,
+    "fit": [
+      0.85,
+      0.77
+    ],
+    "pop": [
+      0.58,
+      0.97
+    ],
+    "scored": "4/5",
+    "heldWins": 2,
+    "folds": [
+      "Wong Kar-wai 0.83/0.78",
+      "Radiohead 0.84/0.74"
+    ],
+    "qlooPlaces": [
+      {
+        "name": "Holz-Kohlen",
+        "fit": 0.85,
+        "popularity": 0.12
+      },
+      {
+        "name": "BASE MENT",
+        "fit": 0.85,
+        "popularity": 0.3
+      },
+      {
+        "name": "Gelegenheiten",
+        "fit": 0.84,
+        "popularity": 0.43
+      },
+      {
+        "name": "Loophole",
+        "fit": 0.84,
+        "popularity": 0.94
+      },
+      {
+        "name": "Arkaoda",
+        "fit": 0.84,
+        "popularity": 0.88
+      },
+      {
+        "name": "Kugelbar.Berlin",
+        "fit": 0.84,
+        "popularity": 0.79
+      }
+    ],
+    "modelPlaces": [
+      {
+        "name": "Kreuzberg's Monster Ronson's",
+        "found": false,
+        "fit": null,
+        "popularity": null
+      },
+      {
+        "name": "Schwarzes Café",
+        "found": true,
+        "fit": 0.8,
+        "popularity": 0.99
+      },
+      {
+        "name": "KitKatClub",
+        "found": true,
+        "fit": 0.8,
+        "popularity": 0.91
+      },
+      {
+        "name": "Watergate",
+        "found": true,
+        "fit": 0.6,
+        "popularity": 0.98
+      },
+      {
+        "name": "SO36",
+        "found": true,
+        "fit": 0.85,
+        "popularity": 1
+      }
+    ],
+    "steps": [
+      "Read the request: Wong Kar-wai + Radiohead -> bar in Berlin",
+      "Find your loves in the taste graph: Wong Kar-wai = Wong Kar-wai; Radiohead = Radiohead",
+      "Rank places by taste affinity: 2 of 12 are mainly a bar in Berlin; too few, so search deeper",
+      "Read the taste as ambience and decor: Vintage, Rustic, Authentic, Intimate, Quaint, Bustling, Dark Wood, Cozy",
+      "Look for what is on now: 0 fresh results that name the city and a love",
+      "Search deeper for the kind asked for: 15 of 50 are mainly a bar in Berlin; kept 6",
+      "Check official travel advice: Level 2: Exercise Increased Caution",
+      "Write the answer from the picks: Names 6 of 6 Qloo picks"
+    ]
+  }
+]

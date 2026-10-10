@@ -1,0 +1,25 @@
+{
+  "name": "taste-concierge",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Taste-to-place concierge: Qloo taste graph plus NVIDIA Nemotron on Nebius Token Factory, on Cloudflare Workers",
+  "license": "MIT",
+  "scripts": {
+    "dev": "wrangler dev",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit",
+    "build": "wrangler deploy --dry-run",
+    "record": "node --experimental-strip-types scripts/record-fixtures.ts"
+  },
+  "dependencies": {
+    "hono": "^4.6.0"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20240909.0",
+    "@types/node": "^22.20.5",
+    "typescript": "^5.6.0",
+    "vitest": "^2.1.0",
+    "wrangler": "4.142.0"
+  }
+}

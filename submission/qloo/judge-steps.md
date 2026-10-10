@@ -46,7 +46,7 @@ curl -s https://taste-concierge.nguyenhieuec.workers.dev/mcp \
 ## Run the code
 
 ```sh
-git clone <repo>
+git clone https://github.com/nguyenhieuec/taste-concierge
 cd taste-concierge
 pnpm install
 pnpm test        # offline, replays recorded live Qloo, Tavily and travel calls

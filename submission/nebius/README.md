@@ -3,7 +3,8 @@
 Track: Best Apps and Agents.
 Live demo: https://taste-concierge.nguyenhieuec.workers.dev
 MCP endpoint: https://taste-concierge.nguyenhieuec.workers.dev/mcp
-Video: see `video.md`.
+Video: the Nebius cut waits on the Nebius key (see `video.md`); the Qloo cut is https://youtu.be/5oPj2kYwKxY.
+Code: https://github.com/nguyenhieuec/taste-concierge
 Licence: MIT.
 
 ## What it is

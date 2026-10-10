@@ -1,6 +1,6 @@
 # Demo video
 
-Link: to be added after the YouTube upload.
+Link: https://youtu.be/5oPj2kYwKxY
 Length: 2 minutes 52 seconds.
 Recorded on the live demo on 2026-10-10, in headless Chrome at 1280 by 720 and 1.5x scale (1920 by 1080 output).
 Nothing in the video is mocked: every result comes from live Qloo, Tavily and OpenKrill calls.

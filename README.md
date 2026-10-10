@@ -5,6 +5,8 @@ It shows which of your tastes drove each pick, and it tests its own answer again
 
 Live demo: https://taste-concierge.nguyenhieuec.workers.dev
 MCP endpoint: https://taste-concierge.nguyenhieuec.workers.dev/mcp
+Code: https://github.com/nguyenhieuec/taste-concierge
+Video: https://youtu.be/5oPj2kYwKxY
 Licence: MIT (see `LICENSE`).
 
 ## What it does

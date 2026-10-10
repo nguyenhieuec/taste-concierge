@@ -2,7 +2,8 @@
 
 Live demo: https://taste-concierge.nguyenhieuec.workers.dev
 MCP endpoint: https://taste-concierge.nguyenhieuec.workers.dev/mcp
-Video: see `video.md` for the link and the script.
+Video: https://youtu.be/5oPj2kYwKxY (script in `video.md`).
+Code: https://github.com/nguyenhieuec/taste-concierge
 Licence: MIT.
 
 Name note: another entry in this hackathon, `github.com/Abhi4899/taste-concierge`, uses the same name and is a different project (an outing planner); this one is the taste-to-place agent with the taste test and the MCP server, at the demo URL above.

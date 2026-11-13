@@ -13,7 +13,7 @@
     "record": "node --experimental-strip-types scripts/record-fixtures.ts"
   },
   "dependencies": {
-    "hono": "^4.6.0"
+    "hono": "^4.13.16"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20240909.0",
